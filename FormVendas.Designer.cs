@@ -31,16 +31,16 @@
             this.cbSelecaoProdutos = new System.Windows.Forms.ComboBox();
             this.nudQuantidade = new System.Windows.Forms.NumericUpDown();
             this.btnAdicionar = new System.Windows.Forms.Button();
-            this.dgvExibirItens = new System.Windows.Forms.DataGridView();
             this.lbResultado = new System.Windows.Forms.Label();
             this.lbProduto = new System.Windows.Forms.Label();
             this.lbQuantidade = new System.Windows.Forms.Label();
             this.gbSecaoProduto = new System.Windows.Forms.GroupBox();
-            this.gbItensPedido = new System.Windows.Forms.GroupBox();
             this.btnFinalizar = new System.Windows.Forms.Button();
+            this.dgvExibirItens = new System.Windows.Forms.DataGridView();
+            this.gbItensPedido = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.nudQuantidade)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvExibirItens)).BeginInit();
             this.gbSecaoProduto.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvExibirItens)).BeginInit();
             this.gbItensPedido.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,14 +67,6 @@
             this.btnAdicionar.TabIndex = 2;
             this.btnAdicionar.Text = "Adicionar Produto";
             this.btnAdicionar.UseVisualStyleBackColor = true;
-            // 
-            // dgvExibirItens
-            // 
-            this.dgvExibirItens.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvExibirItens.Location = new System.Drawing.Point(6, 19);
-            this.dgvExibirItens.Name = "dgvExibirItens";
-            this.dgvExibirItens.Size = new System.Drawing.Size(632, 150);
-            this.dgvExibirItens.TabIndex = 3;
             // 
             // lbResultado
             // 
@@ -118,6 +110,23 @@
             this.gbSecaoProduto.TabStop = false;
             this.gbSecaoProduto.Text = "Seleção de Produto";
             // 
+            // btnFinalizar
+            // 
+            this.btnFinalizar.Location = new System.Drawing.Point(724, 443);
+            this.btnFinalizar.Name = "btnFinalizar";
+            this.btnFinalizar.Size = new System.Drawing.Size(97, 23);
+            this.btnFinalizar.TabIndex = 9;
+            this.btnFinalizar.Text = "Finalizar Pedido";
+            this.btnFinalizar.UseVisualStyleBackColor = true;
+            // 
+            // dgvExibirItens
+            // 
+            this.dgvExibirItens.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvExibirItens.Location = new System.Drawing.Point(6, 19);
+            this.dgvExibirItens.Name = "dgvExibirItens";
+            this.dgvExibirItens.Size = new System.Drawing.Size(632, 150);
+            this.dgvExibirItens.TabIndex = 3;
+            // 
             // gbItensPedido
             // 
             this.gbItensPedido.Controls.Add(this.dgvExibirItens);
@@ -127,15 +136,6 @@
             this.gbItensPedido.TabIndex = 8;
             this.gbItensPedido.TabStop = false;
             this.gbItensPedido.Text = "Itens do Pedido";
-            // 
-            // btnFinalizar
-            // 
-            this.btnFinalizar.Location = new System.Drawing.Point(724, 443);
-            this.btnFinalizar.Name = "btnFinalizar";
-            this.btnFinalizar.Size = new System.Drawing.Size(97, 23);
-            this.btnFinalizar.TabIndex = 9;
-            this.btnFinalizar.Text = "Finalizar Pedido";
-            this.btnFinalizar.UseVisualStyleBackColor = true;
             // 
             // FormVendas
             // 
@@ -149,9 +149,9 @@
             this.Name = "FormVendas";
             this.Text = "FormVendas";
             ((System.ComponentModel.ISupportInitialize)(this.nudQuantidade)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvExibirItens)).EndInit();
             this.gbSecaoProduto.ResumeLayout(false);
             this.gbSecaoProduto.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvExibirItens)).EndInit();
             this.gbItensPedido.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -163,12 +163,12 @@
         private System.Windows.Forms.ComboBox cbSelecaoProdutos;
         private System.Windows.Forms.NumericUpDown nudQuantidade;
         private System.Windows.Forms.Button btnAdicionar;
-        private System.Windows.Forms.DataGridView dgvExibirItens;
         private System.Windows.Forms.Label lbResultado;
         private System.Windows.Forms.Label lbProduto;
         private System.Windows.Forms.Label lbQuantidade;
         private System.Windows.Forms.GroupBox gbSecaoProduto;
-        private System.Windows.Forms.GroupBox gbItensPedido;
         private System.Windows.Forms.Button btnFinalizar;
+        private System.Windows.Forms.DataGridView dgvExibirItens;
+        private System.Windows.Forms.GroupBox gbItensPedido;
     }
 }

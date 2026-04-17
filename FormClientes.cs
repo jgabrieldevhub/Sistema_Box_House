@@ -16,5 +16,10 @@ namespace Sistema_Box_House
         {
             InitializeComponent();
         }
+
+        private void FormClientes_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
