@@ -16,7 +16,7 @@ namespace Sistema_Box_House
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormVendas());
+            Application.Run(new FormPrincipal());
         }
     }
 }
