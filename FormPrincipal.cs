@@ -16,5 +16,25 @@ namespace Sistema_Box_House
         {
             InitializeComponent();
         }
+
+        private void btnVenda_Click(object sender, EventArgs e)
+        {
+            FormVendas form = new FormVendas();
+        }
+
+        private void btnCadastro_Click(object sender, EventArgs e)
+        {
+            FormClientes form = new FormClientes();
+        }
+
+        private void btnEntrega_Click(object sender, EventArgs e)
+        {
+            FormEntrega form = new FormEntrega();
+        }
+
+        private void btnFechar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

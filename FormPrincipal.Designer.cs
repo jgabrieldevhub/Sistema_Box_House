@@ -42,6 +42,7 @@
             this.btnVenda.TabIndex = 0;
             this.btnVenda.Text = "NOVA VENDA";
             this.btnVenda.UseVisualStyleBackColor = true;
+            this.btnVenda.Click += new System.EventHandler(this.btnVenda_Click);
             // 
             // btnCadastro
             // 
@@ -51,6 +52,7 @@
             this.btnCadastro.TabIndex = 1;
             this.btnCadastro.Text = "CADASTRAR CLIENTE";
             this.btnCadastro.UseVisualStyleBackColor = true;
+            this.btnCadastro.Click += new System.EventHandler(this.btnCadastro_Click);
             // 
             // btnEntrega
             // 
@@ -60,6 +62,7 @@
             this.btnEntrega.TabIndex = 2;
             this.btnEntrega.Text = "CONTROLE DE ENTREGAS";
             this.btnEntrega.UseVisualStyleBackColor = true;
+            this.btnEntrega.Click += new System.EventHandler(this.btnEntrega_Click);
             // 
             // btnFechar
             // 
@@ -69,6 +72,7 @@
             this.btnFechar.TabIndex = 3;
             this.btnFechar.Text = "FECHAR SISTEMA";
             this.btnFechar.UseVisualStyleBackColor = true;
+            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
             // FormPrincipal
             // 

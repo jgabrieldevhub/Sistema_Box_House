@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.cbSelecaoProdutos = new System.Windows.Forms.ComboBox();
-            this.nudQuantidade = new System.Windows.Forms.NumericUpDown();
+            this.numQuantidade = new System.Windows.Forms.NumericUpDown();
             this.btnAdicionar = new System.Windows.Forms.Button();
             this.lbResultado = new System.Windows.Forms.Label();
             this.lbProduto = new System.Windows.Forms.Label();
@@ -38,7 +38,7 @@
             this.btnFinalizar = new System.Windows.Forms.Button();
             this.dgvExibirItens = new System.Windows.Forms.DataGridView();
             this.gbItensPedido = new System.Windows.Forms.GroupBox();
-            ((System.ComponentModel.ISupportInitialize)(this.nudQuantidade)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numQuantidade)).BeginInit();
             this.gbSecaoProduto.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvExibirItens)).BeginInit();
             this.gbItensPedido.SuspendLayout();
@@ -52,12 +52,12 @@
             this.cbSelecaoProdutos.Size = new System.Drawing.Size(397, 21);
             this.cbSelecaoProdutos.TabIndex = 0;
             // 
-            // nudQuantidade
+            // numQuantidade
             // 
-            this.nudQuantidade.Location = new System.Drawing.Point(98, 72);
-            this.nudQuantidade.Name = "nudQuantidade";
-            this.nudQuantidade.Size = new System.Drawing.Size(120, 20);
-            this.nudQuantidade.TabIndex = 1;
+            this.numQuantidade.Location = new System.Drawing.Point(98, 72);
+            this.numQuantidade.Name = "numQuantidade";
+            this.numQuantidade.Size = new System.Drawing.Size(120, 20);
+            this.numQuantidade.TabIndex = 1;
             // 
             // btnAdicionar
             // 
@@ -67,6 +67,7 @@
             this.btnAdicionar.TabIndex = 2;
             this.btnAdicionar.Text = "Adicionar Produto";
             this.btnAdicionar.UseVisualStyleBackColor = true;
+            this.btnAdicionar.Click += new System.EventHandler(this.btnAdicionar_Click);
             // 
             // lbResultado
             // 
@@ -101,7 +102,7 @@
             this.gbSecaoProduto.Controls.Add(this.btnAdicionar);
             this.gbSecaoProduto.Controls.Add(this.lbProduto);
             this.gbSecaoProduto.Controls.Add(this.lbQuantidade);
-            this.gbSecaoProduto.Controls.Add(this.nudQuantidade);
+            this.gbSecaoProduto.Controls.Add(this.numQuantidade);
             this.gbSecaoProduto.Controls.Add(this.cbSelecaoProdutos);
             this.gbSecaoProduto.Location = new System.Drawing.Point(183, 107);
             this.gbSecaoProduto.Name = "gbSecaoProduto";
@@ -148,7 +149,7 @@
             this.Controls.Add(this.lbResultado);
             this.Name = "FormVendas";
             this.Text = "FormVendas";
-            ((System.ComponentModel.ISupportInitialize)(this.nudQuantidade)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numQuantidade)).EndInit();
             this.gbSecaoProduto.ResumeLayout(false);
             this.gbSecaoProduto.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvExibirItens)).EndInit();
@@ -161,7 +162,7 @@
         #endregion
 
         private System.Windows.Forms.ComboBox cbSelecaoProdutos;
-        private System.Windows.Forms.NumericUpDown nudQuantidade;
+        private System.Windows.Forms.NumericUpDown numQuantidade;
         private System.Windows.Forms.Button btnAdicionar;
         private System.Windows.Forms.Label lbResultado;
         private System.Windows.Forms.Label lbProduto;
