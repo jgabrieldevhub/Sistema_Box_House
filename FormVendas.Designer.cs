@@ -38,6 +38,8 @@
             this.btnFinalizar = new System.Windows.Forms.Button();
             this.dgvExibirItens = new System.Windows.Forms.DataGridView();
             this.gbItensPedido = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lbPreco = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numQuantidade)).BeginInit();
             this.gbSecaoProduto.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvExibirItens)).BeginInit();
@@ -127,6 +129,7 @@
             this.dgvExibirItens.Name = "dgvExibirItens";
             this.dgvExibirItens.Size = new System.Drawing.Size(632, 150);
             this.dgvExibirItens.TabIndex = 3;
+            this.dgvExibirItens.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvExibirItens_CellContentClick);
             // 
             // gbItensPedido
             // 
@@ -138,11 +141,32 @@
             this.gbItensPedido.TabStop = false;
             this.gbItensPedido.Text = "Itens do Pedido";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "label1";
+            // 
+            // lbPreco
+            // 
+            this.lbPreco.AutoSize = true;
+            this.lbPreco.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbPreco.Location = new System.Drawing.Point(352, 439);
+            this.lbPreco.Name = "lbPreco";
+            this.lbPreco.Size = new System.Drawing.Size(73, 24);
+            this.lbPreco.TabIndex = 11;
+            this.lbPreco.Text = "R$ 0,00";
+            // 
             // FormVendas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1165, 594);
+            this.ClientSize = new System.Drawing.Size(1036, 592);
+            this.Controls.Add(this.lbPreco);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnFinalizar);
             this.Controls.Add(this.gbItensPedido);
             this.Controls.Add(this.gbSecaoProduto);
@@ -171,5 +195,7 @@
         private System.Windows.Forms.Button btnFinalizar;
         private System.Windows.Forms.DataGridView dgvExibirItens;
         private System.Windows.Forms.GroupBox gbItensPedido;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbPreco;
     }
 }

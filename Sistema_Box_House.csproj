@@ -87,6 +87,9 @@
     <EmbeddedResource Include="FormEntrega.resx">
       <DependentUpon>FormEntrega.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormFuncionarios.resx">
+      <DependentUpon>FormFuncionarios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormPrincipal.resx">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
     </EmbeddedResource>

@@ -19,17 +19,20 @@ namespace Sistema_Box_House
 
         private void btnVenda_Click(object sender, EventArgs e)
         {
-            FormVendas form = new FormVendas();
+            FormVendas formVendas = new FormVendas();
+            formVendas.Show();
         }
 
         private void btnCadastro_Click(object sender, EventArgs e)
         {
-            FormClientes form = new FormClientes();
+            FormClientes formClientes = new FormClientes();
+            formClientes.Show();
         }
 
         private void btnEntrega_Click(object sender, EventArgs e)
         {
-            FormEntrega form = new FormEntrega();
+            FormEntrega formEntrega = new FormEntrega();
+            formEntrega.Show();
         }
 
         private void btnFechar_Click(object sender, EventArgs e)

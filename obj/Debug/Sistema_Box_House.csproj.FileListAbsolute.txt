@@ -11,3 +11,4 @@ C:\Users\jorge.gsramos\source\repos\Sistema_Box_House\Sistema_Box_House\obj\Debu
 C:\Users\jorge.gsramos\source\repos\Sistema_Box_House\Sistema_Box_House\obj\Debug\Sistema_Box_House.pdb
 C:\Users\jorge.gsramos\source\repos\Sistema_Box_House\Sistema_Box_House\obj\Debug\Sistema_Box_House.FormClientes.resources
 C:\Users\jorge.gsramos\source\repos\Sistema_Box_House\Sistema_Box_House\obj\Debug\Sistema_Box_House.FormEntrega.resources
+C:\Users\jorge.gsramos\source\repos\Sistema_Box_House\Sistema_Box_House\obj\Debug\Sistema_Box_House.FormFuncionarios.resources
