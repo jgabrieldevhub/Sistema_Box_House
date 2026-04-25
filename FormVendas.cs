@@ -80,7 +80,7 @@ namespace Sistema_Box_House
 
         private void dgvExibirItens_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            dgvExibirItens.Columns["Nome do Produto"].HeaderText = "Nome do Produto";
+            dgvExibirItens.Columns["NomeProduto"].HeaderText = "Nome do Produto";
             dgvExibirItens.Columns["ValorProduto"].HeaderText = "Valor do Produto";
             dgvExibirItens.Columns["QtdProduto"].HeaderText = "Quantidade do Produto";
         }
